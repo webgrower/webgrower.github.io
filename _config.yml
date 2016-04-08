@@ -22,8 +22,8 @@ authors:
     email:             me@defite.ru
   ikhrome:
     name:              Иван Хромов
-    #url:
-    #email:
+    url:               https://twitter.com/ikhrome
+    email:             knock@ikhrome.ru
 
 # Custom vars
 version:             1.0.0
