@@ -1,0 +1,29 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+#relative_permalinks: true
+
+# Setup
+title:               Web Grower
+tagline:             'Очередной коллективный блог про веб-разработку'
+description:         'Очередной коллективный блог про веб-разработку, созданный, когда это еще не было мэйнстримом.'
+url:                 http://webgrower.github.io
+baseurl:             ''
+gems: [jekyll-paginate]
+paginate: 5
+paginate_path: "page:num"
+
+# About/contact
+authors:
+  defite:
+    name:              Никита Махов
+    url:               https://twitter.com/life_maniac
+    email:             me@defite.ru
+  ikhrome:
+    name:              Иван Хромов
+    #url:
+    #email:
+
+# Custom vars
+version:             1.0.0
