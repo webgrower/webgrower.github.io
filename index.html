@@ -18,7 +18,7 @@ title: Home
 
     <span class="post-date">
       {{ post.date | date_to_string }}
-      &nbsp; опубликовал <a href="/authors/{{ page.author }}/">{{ currentAuthor.name }}</a>
+      &nbsp; опубликовал <a href="/authors/{{ post.author }}/">{{ currentAuthor.name }}</a>
     </span>
 
     {{ post.content }}
