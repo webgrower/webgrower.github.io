@@ -8,6 +8,7 @@ title: Home
 {% endcomment %}
 <div class="posts">
   {% for post in paginator.posts %}
+  {% assign currentAuthor = site.authors[post.author] %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ post.url }}">
