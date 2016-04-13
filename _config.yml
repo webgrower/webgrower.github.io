@@ -15,15 +15,20 @@ paginate: 5
 paginate_path: "page:num"
 
 # About/contact
+# NOTE: Hash your email and place to authors.%autor%.gravatar option
 authors:
   defite:
     name:              Никита Махов
     url:               https://twitter.com/life_maniac
     email:             me@defite.ru
+    gravatar:          102d5d0be042fd9d2c55981f4d0fada2
   ikhrome:
     name:              Иван Хромов
     url:               https://twitter.com/ikhrome
     email:             knock@ikhrome.ru
+    gravatar:          34717b1c6bec0568af5f039f624e63ee
 
 # Custom vars
 version:             1.0.0
+# We need it. Just deal with it!
+avatarExtension:     .jpg
