@@ -2,7 +2,10 @@
 layout: default
 title: Home
 ---
-
+{% assign currentAuthor = site.authors[page.author] %}
+{% comment %}
+  TODO: make this shit DRY in future =)
+{% endcomment %}
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -12,7 +15,10 @@ title: Home
       </a>
     </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">
+      {{ post.date | date_to_string }}
+      &nbsp; опубликовал <a href="/authors/{{ page.author }}/">{{ currentAuthor.name }}</a>
+    </span>
 
     {{ post.content }}
   </div>
