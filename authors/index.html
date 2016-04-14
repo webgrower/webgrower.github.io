@@ -1,0 +1,10 @@
+---
+layout: page
+title: Список авторов
+---
+<div class="post">
+  {% for author in site.authors %}
+    <h2>{{ author.name }}</h2>
+    <img src="http://gravatar.com/avatar/{{ author.gravatar }}{{ site.avatarExtension }}" alt="{{ author.name }}" />
+  {% endfor %}
+</div>
